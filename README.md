@@ -2,7 +2,7 @@ Los equipos de red Huawei utilizan el sistema operativo VRP (Versatile Routing P
 Tomando como referencia el sistema operativo para equipos Cisco, IOS, se describirán los modos de operación en equipos VRP:
 
 ---
-1. Modos de configuración
+## Modos de configuración
 
 En ambos sistemas operativos, el modo de operación inicial de los equipos es **modo usuario**.
   - Cisco:
@@ -42,6 +42,17 @@ En equipos Huawei el modo de configuración global, utilizado para realizar modi
 | Guardar la configuración actual | `copy running-config startup-config` | `save`  |
 | Reiniciar el sistema | `reload` | `reboot`  |
 
+---
+## Modos de configuración
+
+En ambos sistemas operativos, el modo de operación inicial de los equipos es **modo usuario**.
+  - Cisco:
+    - User EXEC mode: Indicado por el prompt `Device>`.
+  - Huawei:
+    - User mode: Indicado por el prompt `<Huawei>`.
+
+En equipos Huawei el modo de configuración global, utilizado para realizar modificaciones a la configuración del dispositivo, es indicado con el prompt entre corchetes:
+- `[Huawei]`
 
 ---
 ## Configurar contraseña de acceso
