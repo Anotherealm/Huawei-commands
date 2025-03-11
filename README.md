@@ -34,7 +34,7 @@ En equipos Huawei el modo de configuración global, utilizado para realizar modi
 | Habilitar interfaz | `no shutdown` | `undo shutdown`  |
 | Asignar nombre al dispositivo | `hostname nombre` | `sysname nombre` |
 | Asignar Banner Motd a la consola | `banner motd texto` | `header shell information texto`  |
-| [Configurar contraseña de acceso](#configurar-contraseña-de-acceso | `enable password contraseña` | `authentication-mode password`|
+| [Configurar contraseña de acceso](#configurar-contraseña-de-acceso) | `enable password contraseña` | `authentication-mode password`|
 | Configurar hora y fecha | `clock set hh:mm:ss yyyy:mm:dd` | `clock datetime hh:mm:ss yyyy:mm:dd` |
 | Verificar todas las interfaces | `show ip interface brief`  | `display ip interface brief`   |
 | Verificar Tabla de enrutamiento | `show ip route` | `display ip routing-table`   |
