@@ -9,8 +9,8 @@ Tomando como referencia el sistema operativo para equipos Cisco, IOS, se describ
   - Modo de configuración global (SystemView)
     - `system-view`
 
-| Nombre   | Edad | Ciudad      |
+| Tarea   | Comando Cisco | Comando Huawei      |
 |----------|------|------------|
-| Juan     | 25   | Madrid     |
+| Ingresar a modo de configuración global     | `configure terminal`   | `system-view`     |
 | María    | 30   | Barcelona  |
 | Carlos   | 28   | Valencia   |
