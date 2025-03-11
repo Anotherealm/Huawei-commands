@@ -1,5 +1,9 @@
 Los equipos de red Huawei utilizan el sistema operativo VRP (Versatile Routing Platform).
-
+Tomando como referencia el sistema operativo para equipos Cisco, IOS, se describirán los modos de operación en equipos VRP:
+- Cisco:
+-   User EXEC mode `Device>`
+- Huawei:
+-   User mode: `<Huawei>`
 
 | Nombre   | Edad | Ciudad      |
 |----------|------|------------|
