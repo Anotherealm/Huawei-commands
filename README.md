@@ -31,3 +31,5 @@ En equipos Huawei el modo de configuración global, utilizado para realizar modi
 | Ingresar a modo de configuración global     | `configure terminal`   | `system-view`     |
 | Ingresar a modo de configuración de interfaz    | `interface interface-id`  | `interface interface-id`  |
 | Configurar direccionamiento IPv4 en interfaz   | `ip address ip-address mask`   | `ip address ip-address [mask/prefix-length]`   |
+| Verificar todas las interfaces | `show ip interface brief`  | `display interface brief`   |
+| Verificar información de capa 2 para interfaz específica | `show interface interface-if` | `display interface interface-id`   |
