@@ -28,8 +28,8 @@ En equipos Huawei el modo de configuración global, utilizado para realizar modi
 
 | Tarea   | Comando Cisco | Comando Huawei      |
 |----------|------|------------|
-| Ingresar a modo de configuración global     | `configure terminal`   | `system-view`     |
-| Ingresar a modo de configuración de interfaz    | `interface interface-id`  | `interface interface-id`  |
+| [Ingresar a modo de configuración global](#modos-de-configuracion)     | `configure terminal`   | `system-view`     |
+| [Ingresar a modo de configuración de interfaz](#modos-de-configuración)    | `interface interface-id`  | `interface interface-id`  |
 | Configurar direccionamiento IPv4 en interfaz   | `ip address ip-address mask`   | `ip address ip-address [mask/prefix-length]`   |
 | Habilitar interfaz | `no shutdown` | `undo shutdown`  |
 | Asignar nombre al dispositivo | `hostname nombre` | `sysname nombre` |
