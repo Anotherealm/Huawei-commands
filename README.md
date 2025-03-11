@@ -1,7 +1,8 @@
 Los equipos de red Huawei utilizan el sistema operativo VRP (Versatile Routing Platform).
 Tomando como referencia el sistema operativo para equipos Cisco, IOS, se describirán los modos de operación en equipos VRP:
-1. Modos de configuración
 ---
+1. Modos de configuración
+
 En ambos sistemas operativos, el modo de operación inicial de los equipos es **modo usuario**.
   - Cisco:
     - User EXEC mode: Indicado por el prompt `Device>`.
@@ -11,8 +12,9 @@ En ambos sistemas operativos, el modo de operación inicial de los equipos es **
 En equipos Huawei el modo de configuración global, utilizado para realizar modificaciones a la configuración del dispositivo, es indicado con el prompt entre corchetes:
 - `[Huawei]`
 
-2. Configuración de interfaces
 ---
+2. Configuración de interfaces
+
 - Configurar direccionamiento IPv4:
   1. Ingresar a la interfaz.
   2. Ejecutar el comando `ip address` seguido de la dirección IPv4 y la máscara de red.
