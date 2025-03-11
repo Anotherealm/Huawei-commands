@@ -52,3 +52,7 @@ Si deseas volver a la vista anterior puedes utilizar el comando `quit`.
 3. Ejecutar comando `set authentication password cipher contraseña`
 
 
+---
+# Referencias
+- https://forum.huawei.com/enterprise/intl/en/thread/Basic-Operations-on-Huawei-VRP-CLI/667269526292676608?blogId=667269526292676608
+- 
