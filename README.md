@@ -24,12 +24,18 @@ En equipos Huawei el modo de configuración global, utilizado para realizar modi
       - `ip address ipv4-address [0-32]`
 
 ---
-3. Verificación
+# Tabla de comandos básicos
 
 | Tarea   | Comando Cisco | Comando Huawei      |
 |----------|------|------------|
 | Ingresar a modo de configuración global     | `configure terminal`   | `system-view`     |
 | Ingresar a modo de configuración de interfaz    | `interface interface-id`  | `interface interface-id`  |
 | Configurar direccionamiento IPv4 en interfaz   | `ip address ip-address mask`   | `ip address ip-address [mask/prefix-length]`   |
-| Verificar todas las interfaces | `show ip interface brief`  | `display interface brief`   |
-| Verificar información de capa 2 para interfaz específica | `show interface interface-if` | `display interface interface-id`   |
+| Habilitar interfaz | `no shutdown` | `undo shutdown`  |
+| Asignar nombre al dispositivo | `hostname nombre` | `sysname nombre` |
+| Asignar Banner Motd a la consola | `banner motd texto` | `header shell information texto`  |
+| Verificar todas las interfaces | `show ip interface brief`  | `display ip interface brief`   |
+| Verificar Tabla de enrutamiento | `show ip route` | `display ip routing-table`   |
+| Guardar la configuración actual | `copy running-config startup-config` | `save`  |
+| Reiniciar el sistema | `reload` | `reboot`  |
+
