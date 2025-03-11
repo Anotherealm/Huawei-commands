@@ -11,6 +11,15 @@ En ambos sistemas operativos, el modo de operación inicial de los equipos es **
 En equipos Huawei el modo de configuración global, utilizado para realizar modificaciones a la configuración del dispositivo, es indicado con el prompt entre corchetes:
 - `[Huawei]`
 
+2. Configuración de interfaces
+---
+- Configurar direccionamiento IPv4:
+  1. Ingresar a la interfaz.
+  2. Ejecutar el comando `ip address` seguido de la dirección IPv4 y la máscara de red.
+    - La máscara de red puede ser indicada por la máscara en notación decimal o utilizando el prefix-lenght
+      - `ip address ipv4-address x.x.x.x`
+      - `ip address ipv4-address [0-32]`
+
 
 
 | Tarea   | Comando Cisco | Comando Huawei      |
