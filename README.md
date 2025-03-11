@@ -23,10 +23,11 @@ En equipos Huawei el modo de configuración global, utilizado para realizar modi
       - `ip address ipv4-address x.x.x.x`
       - `ip address ipv4-address [0-32]`
 
-
+---
+3. Verificación
 
 | Tarea   | Comando Cisco | Comando Huawei      |
 |----------|------|------------|
 | Ingresar a modo de configuración global     | `configure terminal`   | `system-view`     |
 | Ingresar a modo de configuración de interfaz    | `interface interface-id`  | `interface interface-id`  |
-| Carlos   | 28   | Valencia   |
+| Configurar direccionamiento IPv4 en interfaz   | `ip address ip-address mask`   | `ip address ip-address [mask/prefix-length]`   |
