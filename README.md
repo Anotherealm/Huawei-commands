@@ -32,6 +32,9 @@ En ambos sistemas operativos, el modo de operación inicial de los equipos es **
 En equipos Huawei el modo de configuración global, utilizado para realizar modificaciones a la configuración del dispositivo, es indicado con el prompt entre corchetes:
 - `[Huawei]`
 
+Ciertos comandos (por ejemplo, el comando `save`) solo funcionan en la vista de usuario, por lo que fue incluida una combinación de teclas para cambiar a dicha vista de forma rápida: `Ctrl-z`.
+Si deseas volver a la vista anterior puedes utilizar el comando `quit`.
+
 ---
 ## Configuración de interfaces
 
