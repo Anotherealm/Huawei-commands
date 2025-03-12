@@ -56,6 +56,10 @@ Una configuración puede ser descartada debido a varios motivos. En equipos Cisc
     - La máscara de red puede ser indicada por la máscara en notación decimal o utilizando el prefix-lenght
       - `ip address ipv4-address x.x.x.x`
       - `ip address ipv4-address [0-32]`
+
+### Línea de consola
+1. Utiliza el comando global `user-interface console 0` para ingresar a la línea de consola del dispositivo.
+2. 
     
 ## VLANs
 
