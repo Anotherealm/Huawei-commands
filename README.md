@@ -63,7 +63,18 @@ Una configuración puede ser descartada debido a varios motivos. En equipos Cisc
 En configuración global, crea una VLAN ejecutando el comando `vlan vlan-id`. Además, puedes crear múltiples VLANs ejecutando el comando `vlan batch vlan1, vlan2, ...`.
 Puedes verificar las VLANs creadas con el comando `display vlan`.
 
+### Configuración VLAN en enlaces de acceso
+1. Ingresar a un enlace de acceso.
+2. Ejecutar el comando `port `
+
+### Configuración de VLANs en enlaces troncales
+
+### Enrutamiento interVLAN
+
+
 ---
 # Referencias
 - https://forum.huawei.com/enterprise/intl/en/thread/Basic-Operations-on-Huawei-VRP-CLI/667269526292676608?blogId=667269526292676608
+- Configuración básica de OSPF: https://support.huawei.com/enterprise/en/doc/EDOC1000141870/d55d1d8c/example-for-configuring-basic-ospf-functions
+- Enrutamiento intervlan: https://forum.huawei.com/enterprise/intl/es/thread/configuracion-router-on-a-stick-o-intervlan/667225638836256769?blogId=667225638836256769
 - 
