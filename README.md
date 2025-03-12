@@ -14,6 +14,7 @@ Tomando como referencia el sistema operativo para equipos Cisco, IOS, se describ
 | Asignar Banner Motd a la consola | `banner motd texto` | `header shell information texto`  |
 | [Configurar contraseña de acceso](#configurar-contraseña-de-acceso) | `enable password contraseña` | `authentication-mode password`|
 | Configurar hora y fecha | `clock set hh:mm:ss yyyy:mm:dd` | `clock datetime hh:mm:ss yyyy:mm:dd` |
+| Crear una VLAN | `vlan vlan-id` | `vlan vlan-id` |
 | Verificar la versión del sistema | `show version` | `display version`  |
 | Verificar todas las interfaces | `show ip interface brief`  | `display ip interface brief`   |
 | Verificar Tabla de enrutamiento | `show ip route` | `display ip routing-table`   |
