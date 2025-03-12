@@ -38,7 +38,7 @@ Si deseas volver a la vista anterior puedes utilizar el comando `quit`.
 
 ### Eliminar la configuración
 Una configuración puede ser descartada debido a varios motivos. En equipos Cisco se antepone la palabra "no" antes de un comando para eliminar la configuración.
-- **En equipos Huawei**, se antepone la palabra "undo" para eliminar la configuración de un comando, por ejemplo: `undo ip address`.
+- **En equipos Huawei**, se antepone la palabra *undo* para eliminar la configuración de un comando, por ejemplo: `undo ip address`.
 
 
 ---
