@@ -14,6 +14,7 @@ Tomando como referencia el sistema operativo para equipos Cisco, IOS, se describ
 | Asignar Banner Motd a la consola | `banner motd texto` | `header shell information texto`  |
 | [Configurar contraseña de acceso](#configurar-contraseña-de-acceso) | `enable password contraseña` | `authentication-mode password`|
 | Configurar hora y fecha | `clock set hh:mm:ss yyyy:mm:dd` | `clock datetime hh:mm:ss yyyy:mm:dd` |
+| Verificar la versión del sistema | `show version` | `display version`  |
 | Verificar todas las interfaces | `show ip interface brief`  | `display ip interface brief`   |
 | Verificar Tabla de enrutamiento | `show ip route` | `display ip routing-table`   |
 | Verificar tiempo del dispositivo | `show clock` | `display clock`  |
@@ -34,6 +35,11 @@ En equipos Huawei el modo de configuración global, utilizado para realizar modi
 
 Ciertos comandos (por ejemplo, el comando `save`) solo funcionan en la vista de usuario, por lo que fue incluida una combinación de teclas para cambiar a dicha vista de forma rápida: `Ctrl-z`.
 Si deseas volver a la vista anterior puedes utilizar el comando `quit`.
+
+### Eliminar la configuración
+Una configuración puede ser descartada debido a varios motivos. En equipos Cisco se antepone la palabra "no" antes de un comando para eliminar la configuración.
+- **En equipos Huawei**, se antepone la palabra "undo" para eliminar la configuración de un comando, por ejemplo: `undo ip address`.
+
 
 ---
 ## Configuración de interfaces
