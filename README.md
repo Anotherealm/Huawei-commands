@@ -40,8 +40,13 @@ Si deseas volver a la vista anterior puedes utilizar el comando `quit`.
 Una configuración puede ser descartada debido a varios motivos. En equipos Cisco se antepone la palabra "no" antes de un comando para eliminar la configuración.
 - **En equipos Huawei**, se antepone la palabra *undo* para eliminar la configuración de un comando, por ejemplo: `undo ip address`.
 
-
 ---
+## Configurar contraseña de acceso
+1. Ingresar a la línea consola, por medio del comando `user-interface console 0`
+2. Ejecutar comando `authentication-mode password`
+3. Ejecutar comando `set authentication password cipher contraseña`
+
+
 ## Configuración de interfaces
 
 ### Configurar direccionamiento IPv4:
@@ -50,13 +55,12 @@ Una configuración puede ser descartada debido a varios motivos. En equipos Cisc
     - La máscara de red puede ser indicada por la máscara en notación decimal o utilizando el prefix-lenght
       - `ip address ipv4-address x.x.x.x`
       - `ip address ipv4-address [0-32]`
+    
+## VLANs
 
----
-## Configurar contraseña de acceso
-1. Ingresar a la línea consola, por medio del comando `user-interface console 0`
-2. Ejecutar comando `authentication-mode password`
-3. Ejecutar comando `set authentication password cipher contraseña`
-
+### Creación de VLANs
+En configuración global, crea una VLAN ejecutando el comando `vlan vlan-id`. Además, puedes crear múltiples VLANs ejecutando el comando `vlan batch vlan1, vlan2, ...`.
+Puedes verificar las VLANs creadas con el comando `display vlan`.
 
 ---
 # Referencias
