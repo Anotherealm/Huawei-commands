@@ -77,8 +77,27 @@ Puedes verificar las VLANs creadas con el comando `display vlan`.
 
 
 ---
+## Configuración de SSH
+
+1. En el modo de configuración global, ejecuta el comando `crypto local-key-pair create` para crear pares de llaves RSA.
+2. Crear o utilizar un usuario con permisos para SSH:
+   - [HUAWEI] aaa
+   - [HUAWEI-aaa] local-user *anotherealm* password cipher *huawei123*
+   - [HUAWEI-aaa] local-user *anotherealm* service-type ssh
+3. Arrancar el servicio SSH en el dispositivo
+   - [HUAWEI] stelnet server enable
+   - [HUAWEI] ssh user *anotherealm* authentication-type password
+   - [HUAWEI] ssh user *anotherealm* authentication-type password
+   - [HUAWEI] ssh user *anotherealm* service-type stelnet
+4. Habilitar SSH en líneas VTY
+   - [HUAWEI] user-interface vty 0 4
+   - [HUAWEI-ui-vty0-4] authentication-mode aaa
+   - [HUAWEI-ui-vty0-4] protocol inbound ssh
+
+---
 # Referencias
 - https://forum.huawei.com/enterprise/intl/en/thread/Basic-Operations-on-Huawei-VRP-CLI/667269526292676608?blogId=667269526292676608
 - Configuración básica de OSPF: https://support.huawei.com/enterprise/en/doc/EDOC1000141870/d55d1d8c/example-for-configuring-basic-ospf-functions
 - Enrutamiento intervlan: https://forum.huawei.com/enterprise/intl/es/thread/configuracion-router-on-a-stick-o-intervlan/667225638836256769?blogId=667225638836256769
+- Configuración SSH: https://netcamp.ch/guides/huawei/huawei-ssh-activation
 - 
