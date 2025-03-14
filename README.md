@@ -69,7 +69,8 @@ Puedes verificar las VLANs creadas con el comando `display vlan`.
 
 ### Configuración VLAN en enlaces de acceso
 1. Ingresar a un enlace de acceso.
-2. Ejecutar el comando `port `
+2. Ejecutar el comando `port link-type access`
+3. Luego, especifica la VLAN de acceso con `port default vlan vlan-id`
 
 ### Configuración de VLANs en enlaces troncales
 
